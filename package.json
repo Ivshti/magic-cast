@@ -1,0 +1,34 @@
+{
+  "name": "magic-cast",
+  "version": "0.0.1",
+  "description": "Cast video to chromecast, dlna and airplay",
+  "main": "index.js",
+  "dependencies": {
+    "castv2-client": "^1.1.0",
+    "multicast-dns": "^4.0.0",
+    "needle": "^0.11.0",
+    "ssdp-js": "^1.0.1",
+    "xml2js": "^0.4.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ivshti/magic-cast"
+  },
+  "keywords": [
+    "cast",
+    "video",
+    "chromecast",
+    "airplay",
+    "dlna"
+  ],
+  "author": "Ivo Georgiev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ivshti/magic-cast/issues"
+  },
+  "homepage": "https://github.com/Ivshti/magic-cast"
+}
